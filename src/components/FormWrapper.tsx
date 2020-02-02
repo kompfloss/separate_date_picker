@@ -11,7 +11,7 @@ class FormWrapperComponent extends React.Component<FormComponentProps> {
 
     return (
       <Row type="flex" justify="center" className="date-picker-layout">
-        <Col xs={24} sm={20} md={16} lg={12}>
+        <Col xs={22} sm={20} md={16} lg={12}>
           <h3>Separate Date Picker</h3>
           <Form onSubmit={this.onSubmit}>
             <Form.Item label="Your birthday">
@@ -63,7 +63,7 @@ class FormWrapperComponent extends React.Component<FormComponentProps> {
     e.preventDefault();
     form.validateFieldsAndScroll((err, values) => {
       if (!err) {
-        console.log(`Received values of form: ${values}`);
+        console.log("Received values of form: ", values);
       }
     });
   };
