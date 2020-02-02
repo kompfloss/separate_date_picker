@@ -1,0 +1,11 @@
+.date-picker-layout > .ant-col {
+  margin: 24px 24px;
+  padding: 24px 24px 0;
+  border: 1px solid lightgray;
+  border-radius: 6px;
+  box-shadow: 0 0 10px 4px lightgray;
+}
+
+.date-picker-layout .ant-select {
+  padding: 0 8px;
+}
